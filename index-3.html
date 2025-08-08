@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Product-list-with-cart</title>
+</head>
+<body class="hidden">
+    <main class="content">
+        <div class="product">
+            <h1 class="product__header">Desserts</h1>
+            <div class="product__list">
+                <div class="product__item item">
+                    <div class="item__image-container">
+                        <img src="./media/item/1.jpg" alt="Вафли с клубникой на тарелке" class="item__image">
+                        <button class="add-to-cart"><img src="./media/icon/carbon_shopping-cart-plus.svg" alt="">Add to Cart</button>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Waffle</p>
+                        <h2 class="item__description">Waffle with Berries</h2>
+                        <span class="item__price">$6.50</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container item__image-container--active">
+                        <img src="./media/item/2.jpg" alt="Два крем брюле и ложками на деревянной дощечке" class="item__image">
+                        <div class="counter">
+                            <button class="counter__button">-</button>
+                            <span class="counter__value">4</span>
+                            <button class="counter__button">+</button>
+                        </div>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Crème Brûlée</p>
+                        <h2 class="item__description">Vanilla Bean Crème Brûlée</h2>
+                        <span class="item__price">$7.00</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container">
+                        <img src="./media/item/3.jpg" alt="Несколько макарун" class="item__image">
+                        <button class="add-to-cart"><img src="./media/icon/carbon_shopping-cart-plus.svg" alt="">Add to Cart</button>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Macaron</p>
+                        <h2 class="item__description">Macaron Mix of Five</h2>
+                        <span class="item__price">$8.00</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container  item__image-container--active">
+                        <img src="./media/item/4.jpg" alt="Кусочек тирамису и несколько ягод клубники" class="item__image">
+                        <div class="counter">
+                            <button class="counter__button">-</button>
+                            <span class="counter__value">1</span>
+                            <button class="counter__button">+</button>
+                        </div>                    
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Tiramisu</p>
+                        <h2 class="item__description">Classic Tiramisu</h2>
+                        <span class="item__price">$5.50</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container">
+                        <img src="./media/item/5.jpg" alt="Три кусочка пахлавы" class="item__image">
+                        <button class="add-to-cart"><img src="./media/icon/carbon_shopping-cart-plus.svg" alt="">Add to Cart</button>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Baklava</p>
+                        <h2 class="item__description">Pistachio Baklava</h2>
+                        <span class="item__price">$4.00</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container">
+                        <img src="./media/item/6.jpg" alt="Кусочек лимомнного торта со сливками" class="item__image">
+                        <button class="add-to-cart"><img src="./media/icon/carbon_shopping-cart-plus.svg" alt="">Add to Cart</button>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Pie</p>
+                        <h2 class="item__description">Lemon Meringue Pie</h2>
+                        <span class="item__price">$5.00</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container">
+                        <img src="./media/item/7.jpg" alt="Клубничный кусочек торта" class="item__image">
+                        <button class="add-to-cart"><img src="./media/icon/carbon_shopping-cart-plus.svg" alt="">Add to Cart</button>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Cake</p>
+                        <h2 class="item__description">Red Velvet Cake</h2>
+                        <span class="item__price">$4.50</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container">
+                        <img src="./media/item/8.jpg" alt="Кусочек брауни с мороженным" class="item__image">
+                        <button class="add-to-cart"><img src="./media/icon/carbon_shopping-cart-plus.svg" alt="">Add to Cart</button>
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Brownie</p>
+                        <h2 class="item__description">Salted Caramel Brownie</h2>
+                        <span class="item__price">$5.50</span>
+                    </div>
+                </div>
+                <div class="product__item item">
+                    <div class="item__image-container item__image-container--active">
+                        <img src="./media/item/9.jpg" alt="Две стекляных баночки варенных сливок" class="item__image">
+                        <div class="counter">
+                            <button class="counter__button">-</button>
+                            <span class="counter__value">2</span>
+                            <button class="counter__button">+</button>
+                        </div>                    
+                    </div>
+                    <div class="item__info">
+                        <p class="item__category">Panna Cotta</p>
+                        <h2 class="item__description">Vanilla Panna Cotta</h2>
+                        <span class="item__price">$6.50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart cart--buy">
+            <h2 class="cart__header">Your Cart (7)</h2>
+            <div class="cart__list">
+                <div class="cart__item">
+                    <div class="cart__information">
+                        <h3 class="cart__title">Classic Tiramisu</h3>
+                        <div class="cart__pricing">
+                            <span class="cart__quantity">1x</span>
+                            <span class="cart__unit-price">@$5.50</span>
+                            <span class="cart__price">$5.50</span>
+                        </div>
+                    </div>
+                    <button class="cart__remove">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.375 9.375L5 6L1.625 9.375L0.625 8.375L4 5L0.625 1.625L1.625 0.625L5 4L8.375 0.625L9.375 1.625L6 5L9.375 8.375L8.375 9.375Z" fill="#AD8A85"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="line"></div>
+                <div class="cart__item">
+                    <div class="cart__information">
+                        <h3 class="cart__title">Vanilla Bean Crème Brûlée</h3>
+                        <div class="cart__pricing">
+                            <span class="cart__quantity">4x</span>
+                            <span class="cart__unit-price">@$7.00</span>
+                            <span class="cart__price">$28.00</span>
+                        </div>
+                    </div>
+                    <button class="cart__remove">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.375 9.375L5 6L1.625 9.375L0.625 8.375L4 5L0.625 1.625L1.625 0.625L5 4L8.375 0.625L9.375 1.625L6 5L9.375 8.375L8.375 9.375Z" fill="#AD8A85"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="line"></div>
+                <div class="cart__item">
+                    <div class="cart__information">
+                        <h3 class="cart__title">Vanilla Panna Cotta</h3>
+                        <div class="cart__pricing">
+                            <span class="cart__quantity">2x</span>
+                            <span class="cart__unit-price">@$6.50</span>
+                            <span class="cart__price">$13.00</span>
+                        </div>
+                    </div>
+                    <button class="cart__remove">
+                        <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.375 9.375L5 6L1.625 9.375L0.625 8.375L4 5L0.625 1.625L1.625 0.625L5 4L8.375 0.625L9.375 1.625L6 5L9.375 8.375L8.375 9.375Z" fill="#AD8A85"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="cart__total">
+                <p class="cart__total-title">Order Total</p>
+                <span class="cart__total-price">$46.50</span>
+            </div>
+            <div class="cart__neutral-info">
+                <img src="./media/icon/carbon_tree.svg" alt="" class="cart__neutral-icon">
+                <p class="cart__neutral-text">This is a <span class="card__neural-text card__neural-text--highlight">carbon-neutral </span>delivery</p>
+            </div>
+            <button class="cart__button">Confirm Order</button>
+        </div>
+    </main>
+    <section class="confirmation-modal">
+        <div class="confirmation-modal__info">
+            <img src="./media/icon/Jackdaw.svg" alt="" class="confirmation-modal__icon">
+            <h2 class="confirmation-modal__header">Order Confirmed</h2>
+            <p class="confirmation-modal__text">We hope you enjoy your food!</p>
+        </div>
+        <div class="confirmation-modal__list">
+            <div class="confirmation-modal__item">
+                <img src="./media/item/4.jpg" alt="" class="confirmation-modal__mini-img" width="48" height="48">
+                    <div class="confirmation-modal__pricing">
+                        <h3 class="confirmation-modal__title">Classic Tiramisu</h3>
+                        <div class="confiramtion-modal__amount">
+                            <span class="confirmation-modal__quantity">1x</span>
+                            <span class="confirmation-modal__unit-price">@$5.50</span>
+                        </div>
+                    </div>
+                <span class="confiramtion-modal__price">$5.50</span>
+            </div>
+            <div class="confirmation-modal__line"></div>
+            <div class="confirmation-modal__item">
+                <img src="./media/item/2.jpg" alt="" class="confirmation-modal__mini-img"width="48" height="48">
+                <div class="confirmation-modal__pricing">
+                    <h3 class="confirmation-modal__title">Vanilla Bean Crème Brûlée</h3>
+                    <div class="confiramtion-modal__amount">
+                        <span class="confirmation-modal__quantity">4x</span>
+                        <span class="confirmation-modal__unit-price">@$7.00</span>
+                    </div>
+                </div>
+                <span class="confiramtion-modal__price">$28.00</span>
+            </div>
+            <div class="confirmation-modal__line"></div>
+            <div class="confirmation-modal__item">
+                <img src="./media/item/9.jpg" alt="" class="confirmation-modal__mini-img"width="48" height="48">
+                <div class="confirmation-modal__pricing">
+                    <h3 class="confirmation-modal__title">Vanilla Panna Cotta</h3>
+                    <div class="confiramtion-modal__amount">
+                        <span class="confirmation-modal__quantity">2x</span>
+                        <span class="confirmation-modal__unit-price">@$6.50</span>
+                    </div>
+                </div>
+                <span class="confiramtion-modal__price">$13.00</span>
+            </div>
+            <div class="confirmation-modal__line"></div>
+            <div class="confiramtion-modal__total">
+                <p class="confiramtion-modal__total-title">Order Total</p>
+                <span class="confiramtion-modal__total-price">$46.50</span>
+            </div>
+        </div>
+        <button class="confiramtion-modal__button">Start New Order</button>
+    </section>
+</body>
+</html>
